@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.2"
+  },
+  "gitHooks": {
+    "prepare-commit-msg": "devmoji -e --lint"
+  }
 }
