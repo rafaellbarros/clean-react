@@ -11,4 +11,4 @@ npm i -D eslint eslint-config-standard-with-typescript eslint-plugin-import esli
 npm i -D lint-staged husky
 
 # jest
-npm i -D jest @types/jest ts-jst
+npm i -D jest @types/jest ts-jest
