@@ -1,0 +1,8 @@
+# gitcommit
+npm i -D git-commit-msg-linter
+
+# typescript
+npm i -D typescript @types/node
+
+# eslint
+npm i -D eslint eslint-config-standard-with-typescript eslint-plugin-import eslint-plugin-promise eslint-plugin-standard @typescript-eslint/eslint-plugin eslint-plugin-node
