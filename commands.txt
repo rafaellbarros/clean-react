@@ -6,3 +6,6 @@ npm i -D typescript @types/node
 
 # eslint
 npm i -D eslint eslint-config-standard-with-typescript eslint-plugin-import eslint-plugin-promise eslint-plugin-standard @typescript-eslint/eslint-plugin eslint-plugin-node
+
+# impedir commits defeituosos
+npm i -D list-staged husky
