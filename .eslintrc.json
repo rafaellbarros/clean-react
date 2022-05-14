@@ -3,8 +3,7 @@
       "standard-with-typescript"
     ],
     "include": [
-      "src",
-      "tests"
+      "src"
     ],
     "parserOptions": {
       "project": "./tsconfig-eslint.json"
