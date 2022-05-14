@@ -30,6 +30,8 @@
     "typescript": "^4.6.4"
   },
   "gitHooks": {
-    "prepare-commit-msg": "devmoji -e --lint"
+    "prepare-commit-msg": "devmoji -e --lint",
+    "pre-commit": "lint-staged",
+    "pre-push": "npm run test:ci"
   }
 }
