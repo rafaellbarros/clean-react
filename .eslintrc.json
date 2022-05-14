@@ -2,6 +2,10 @@
     "extends": [
       "standard-with-typescript"
     ],
+    "include": [
+      "src",
+      "tests"
+    ],
     "parserOptions": {
       "project": "./tsconfig-eslint.json"
     },
