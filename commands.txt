@@ -17,3 +17,6 @@ npm i -D jest @types/jest ts-jest
 npx husky add .husky/prepare-commit-msg "npx devmoji -e --lint"
 npx husky add .husky/pre-commit "npx lint-staged"
 npx husky add .husky/pre-push "npm run test:ci"
+
+# faker
+npm i -D @faker-js/faker
